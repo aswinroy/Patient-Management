@@ -1,0 +1,13 @@
+### POST request to patient-controller
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "email": "jane.doe@example.com",
+  "address": "123 this street",
+  "dateOfBirth": "1995-05-05",
+  "registeredDate": "2025-03-21"
+}
+
+###
