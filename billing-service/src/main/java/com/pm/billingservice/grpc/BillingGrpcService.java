@@ -22,6 +22,6 @@ public class BillingGrpcService extends BillingServiceGrpc.BillingServiceImplBas
                 .setStatus("ACTIVE")
                 .build();
         responseObserver.onNext(response);
-        responseObserver.onCompleted(); 
+        responseObserver.onCompleted();
     }
 }
